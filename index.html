@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <div class="container-fluid border border-primary justify content">
+    <div class="container-fluid border justify content">
       <div class="row bg-secondary text-dark bg-opacity-10 mb-2 p-2">
         <div class="col-12">
           <label>
@@ -28,15 +28,16 @@
           </label>
         </div>
       </div>
-      <div class="row bg-danger text-red bg-opacity-25 mx-auto p-2 rounded">
+      <div class="row bg-danger text-red bg-opacity-25 mx-auto p-2 rounded mb-2">
         <div class="col-12">missing field red message</div>
       </div>
-      <div class="row d-flex border">
+      <div class="row d-flex">
         <div class="col-5">
           <label for="Ccard">Card #</label>
           <input
             type="text"
             class="form-control"
+            placeholder="xxxxxxxxxxxxxxxxx"
             aria-label="Amount (to the nearest dollar)"
           />
         </div>
@@ -45,21 +46,22 @@
           <input
             type="text"
             class="form-control"
+            placeholder="0000"
             aria-label="Sizing example input"
             aria-describedby="inputGroup-sizing-sm"
           />
         </div>
         <div class="col-5">
           <label for="Amount">Amount</label>
-          
           <input
             type="text"
             class="form-control"
+            placeholder="Amount"
             aria-label="Amount (to the nearest dollar)"
           />
         </div>
       </div>
-      <div class="row d-flex border">
+      <div class="row d-flex">
         <div class="col-6">
           <label for="first Name">First Name</label>
           <input
@@ -79,7 +81,7 @@
           />
         </div>
       </div>
-      <div class="row d-flex border">
+      <div class="row d-flex">
         <div class="row d-flex">
           <div class="col-6">
             <label for="City">City</label>
@@ -162,7 +164,7 @@
           </div>
         </div>
       </div>
-      <div class="row d-flex border">
+      <div class="row d-flex mb-4">
         <div class="col-5">
           <div>
             <p>We accept</p>
@@ -227,13 +229,13 @@
             placeholder="Leave a comment here"
             id="floatingTextarea"
             style="height: 100px"
-          ></textarea>
+          ></textarea><label class="text-body-secondary fw-light">Add any notes here</label>
         </div>
       </div>
       <div class="row d-flex text-end border p-2 bg-secondary bg-opacity-10">
         <div class="col-12">
-          <button type="button" class="btn btn-secondary">Secondary</button>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Cancel</button>
+          <button type="button" class="btn btn-primary">Send</button>
         </div>
       </div>
     </div>
